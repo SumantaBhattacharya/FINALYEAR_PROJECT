@@ -192,22 +192,3 @@ Here's a text-based representation of your folder structure that you can use to 
 ├── tailwind.config.js
 └── vite.config.js
 ```
-
-### How to generate an image:
-1. **Using VS Code**: 
-   - Install "Tree Generator" extension
-   - Right-click your project folder → "Generate Tree"
-   
-2. **Online Tools**:
-   - [ASCII Tree Generator](https://ascii-tree-generator.com/)
-   - [Directory Tree Generator](https://tree.nathanfriend.io/)
-
-3. **Command Line** (Windows):
-   ```powershell
-   tree /f /a > structure.txt
-   ```
-
-Would you like me to:
-1. Create a Mermaid.js diagram of this structure?
-2. Suggest any structural improvements?
-3. Highlight any important files?
