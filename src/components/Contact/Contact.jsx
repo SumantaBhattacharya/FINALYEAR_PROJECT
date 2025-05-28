@@ -9,7 +9,6 @@ const Contact = () => {
                     <p className="mt-4 text-lg text-gray-500">
                         Have a question, feedback, or just want to say hello? Feel free to reach out — We would love to hear from you!
                     </p>
-
                 </div>
                 <div className="mt-16 lg:mt-20">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -32,7 +31,17 @@ const Contact = () => {
                                 </div>
                                 <div className="border-t border-gray-200 px-6 py-4">
                                     <h3 className="text-lg font-medium text-gray-900">Contact</h3>
-                                    <p className="mt-1 text-gray-600">Email:  team2025@gmail.com</p>
+                                    <p className="mt-1 text-gray-600">
+                                        Email:{' '}
+                                        <a
+                                            href="https://mail.google.com/mail/?view=cm&fs=1&to=team2025@gmail.com"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-blue-600 hover:underline"
+                                        >
+                                            team2025@gmail.com
+                                        </a>
+                                    </p>
                                     <p className="mt-1 text-gray-600">Phone: +91 8133862158</p>
                                 </div>
                             </div>
