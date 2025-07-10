@@ -97,7 +97,7 @@ npm i react-hook-form
 | integer    | rating        |               |
 | datetime   | createdAt     | **Required**  |
 ```
-Here's a text-based representation of your folder structure that you can use to generate an image (or you can copy this into a tool like TreeSize or Directory List & Print to create a visual):
+
 
 ```
 📦 12MegaBlog
